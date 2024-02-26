@@ -44,7 +44,7 @@ namespace CardDeck
             // 
             // shuffleButton
             // 
-            this.shuffleButton.BackColor = System.Drawing.Color.GreenYellow;
+            this.shuffleButton.BackColor = System.Drawing.Color.White;
             this.shuffleButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.shuffleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.shuffleButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -59,7 +59,8 @@ namespace CardDeck
             // 
             // dealButton
             // 
-            this.dealButton.BackColor = System.Drawing.Color.GreenYellow;
+            this.dealButton.BackColor = System.Drawing.Color.Gray;
+            this.dealButton.Enabled = false;
             this.dealButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.dealButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.dealButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -96,7 +97,8 @@ namespace CardDeck
             // 
             // collectButton
             // 
-            this.collectButton.BackColor = System.Drawing.Color.GreenYellow;
+            this.collectButton.BackColor = System.Drawing.Color.Gray;
+            this.collectButton.Enabled = false;
             this.collectButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.collectButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.collectButton.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
